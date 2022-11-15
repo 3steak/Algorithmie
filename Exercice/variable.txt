@@ -1,0 +1,48 @@
+Affecter, écrire et lire dans un algoritme
+
+Exercice 1 
+Algorithme affectString
+
+Variables
+    firstWord : chaîne 
+    secondWord : chaîne
+
+Instructions
+    firstWord <- "Hello"
+    Ecrire(firstWord)
+
+    secondWord <- "World"
+    Ecrire(secondWord)
+
+
+
+Exercice 2 
+
+Algorithme sayHello
+
+Variable 
+    firstname : string
+
+Instructions
+
+    Ecrire("Votre nom:")
+    Lire (firstname)
+    Ecrire ("Bonjour (firstname) !")
+
+
+Exercice 3 
+
+Algorithme CalcNumber
+
+Variables
+    firstNumber : integer  
+    secondNumber : integer  
+    resultCalc : integer  
+
+Instructions
+    firstNumber <- 56  
+    secondNumber <- 42  
+    resultCalc <- (secondNumber - 30) * firstNumber / 4 
+    resultCalc <- (42 - 30) * 56 / 4
+    resultCalc = 168 
+
