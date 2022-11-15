@@ -1,0 +1,61 @@
+Exercice 1 
+
+    Algorithme multipleTwo
+
+Variables
+    count : entier
+    resultCalc : entier
+
+Instructions 
+    modulo <- (count+5) % 2
+
+    Pour count de 0 à 30 avec un pas de 5
+        Si modulo == 0
+        Alors Ecrire(Count)
+        Sinon Ecrire ("Oops")
+    FinPour
+
+
+
+
+Exercice 2 
+
+    Algorithme rich
+
+    Variables
+    bankAccount : entier
+    count : entier
+
+    Instructions
+
+    TantQue bankAccount > 0 Faire 
+        bankAccount <- bankAccount-50 
+        Ecrire("Il vous reste" bankAccount "sur votre compte")
+    FinTantQue
+
+Exercice 3 
+
+    calc <- calc + count
+    count <- count + 1 
+
+    0 <- 0 + 1
+    
+    1 <- 1 + 2 
+
+    3 <- 3 + 3 
+
+    6 <- 6 + 4 
+
+    10 <- 10 + 5 
+
+    15 <- 15 + 6 
+
+    21 <- 21 + 7 
+
+    28 <- 28 + 8 
+
+    36 <- 36 + 9 
+
+    45 <- 45 + 10 
+
+    55

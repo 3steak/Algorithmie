@@ -1,0 +1,63 @@
+Exercice 1 
+Algorithme genderAge
+
+Variables
+    age : entier
+    gender : chaîne
+
+
+Instructions
+    Ecrire("Votre genre: femme / homme ?")
+    Lire(gender)
+
+    Ecrire("Votre âge:")
+    Lire(age)
+
+    Si 
+        (gender == "femme" Et age >= 18)
+        Alors
+        Ecrire ("Vous êtes une femme et vous êtes majeure" )
+        Sinon
+        Ecrire ("Vous êtes un homme et vous êtes majeur")
+    
+        SinonSi
+        (gender == "femme" Et age < 18)
+        Alors
+        Ecrire ("Vous êtes une femme et vous êtes mineure")
+        Sinon
+        Ecrire ("Vous êtes un homme et vous êtes mineur")
+    FinSi
+
+
+
+    
+Exercice 2 
+
+Algorithme mutlipleFour
+
+Variables 
+
+    A : entier
+    B : entier
+    resultCalc : float
+
+
+Instructions 
+
+    A <- 4
+    B <- 2
+    resultCalc <- A/B
+    
+    Si resultCalc % 4 == 0 
+    Ecrire("Oui")
+    Sinon Ecrire("Non")
+    FinSi
+
+Exercice 3
+
+    imcResult = 27,9510204
+
+    imcResult est supérieur à 25 donc l'algoritme affichera
+
+    "Surveillez votre poids, votre IMC est de : 27,9510204"
+
