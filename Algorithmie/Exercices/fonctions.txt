@@ -1,0 +1,47 @@
+Exercice 1
+
+Écrire un algorithme qui permettra de calculer la somme de 2 nombres, puis de multiplier le résultat par 5. 
+Le calcul de la somme devra se faire dans une fonction SumNumbers 
+qui sera à appeler dans l'algorithme principal.
+
+    Function SumNumbers
+
+    Paramètres d'entrée 
+        nbr1 : float
+        nbr2 : float
+
+
+    Paramètres de sortie 
+        calcNbr : float 
+
+    Variables
+
+        nbr1 : float
+        nbr2 : float
+        calcNbr : float 
+    
+
+    instructions
+
+        Write("Entrer un nombre :")
+        Read(nbr1)
+        Write("Entrer un deuxième nombre :")
+        Read(nbr2)
+
+        calcNbr <- (nbr1 + nbr2)
+
+
+ algorithme calc 
+
+    variable
+        resultCalc : float
+
+    instructions 
+        SumNumbers * 5 
+
+        Write("La somme des deux nombres divisé par 5 vaut :"calcNbr)
+
+
+
+Exercice 2 
+

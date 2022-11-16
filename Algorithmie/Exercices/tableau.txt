@@ -3,23 +3,63 @@ Exercice 1
 Algorithme arrayMultiple
 
 Variables
-    notes[] : tableau d'entiers
+    notes[10] : tableau d'entiers
     count : entier
-    value : entier
+    resultCalc : entier
 
 Instructions 
-    resultCalc <- 0
-    value <- 1
-    notes[] <- notes [1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9 ; 10]
+    notes[] <- notes [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
 
-    TantQue value <= 10 faire
-        resultCalc <- resultCalc + (notes[value] * notes[value+1])
-        value <- value + 1 
-    FinTantQue
+Pour count de 0 à 9 FAIRE
+    resultCalc <- resultCalc * notes[count]
+    Ecrire resultCalc 
 
 
 Exercice 2 
 
 Soit un tableau contenant 5 tableaux de données clients (prénoms, noms et adresses mail). 
 Écrire un algorithme qui sera capable d'afficher chaque donnée de chaque client.
+
+Algorithme usersData
+
+Variables 
+
+    arrayUser1[3] : string array 
+    arrayUser2[3] : string array
+    arrayUser3[3]: string array
+    arrayUser4[3] : string array
+    arrayUser5[3] : string array
+    
+    arrayUsers[5] : data array
+    count : entier 
+    data : entier 
+    usersDatas[20] : string array
+Instructions
+
+    arrayUser1[] <- arrayUser1['Jean','Dupont', 'Jean.Dupont@gmail.com']
+
+    arrayUser2[] <- arrayUser2['Yves' ,'Louis', 'Yves.Louis@gmail.com']
+
+    arrayUser3[] <- arrayUser3['prenom3' ,'nom3', 'mail3']
+    
+    arrayUser4[] <- arrayUser4['prenom4' ,'nom4', 'mail4']
+    
+    arrayUser5[] <- arrayUser5['prenom5' ,'nom5', 'mail5']
+    
+
+    arrayUsers <- arrayUsers[arrayUsers1, arrayUser2,arrayUser3,arrayUser4,arrayUser5]
+
+    Write(arrayUsers[0,2])
+
+POUR count de 0 à 4 ET data de 0 à 2
+
+usersDatas <- usersDatas <- [[count],[data]]
+
+Exercice 3 
+
+Write(logicNumber[5]) Affichera 10
+
+
+
+
 

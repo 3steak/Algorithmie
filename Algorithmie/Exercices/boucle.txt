@@ -5,15 +5,19 @@ Exercice 1
 Variables
     count : entier
     resultCalc : entier
+    modulo : entier
 
 Instructions 
-    modulo <- (count+5) % 2
 
-    Pour count de 0 à 30 avec un pas de 5
-        Si modulo == 0
-        Alors Ecrire(Count)
-        Sinon Ecrire ("Oops")
-    FinPour
+    Pour count de 0 à 30 avec un pas de 5  
+
+        modulo <- count % 2
+        Si 
+            modulo == 0
+            Ecrire(Count)
+        Sinon 
+            Ecrire ("Oops")
+        FinPour
 
 
 
@@ -23,11 +27,12 @@ Exercice 2
     Algorithme rich
 
     Variables
-    bankAccount : entier
+    bankAccount : flottant
     count : entier
 
     Instructions
 
+    bankAccount <- 100
     TantQue bankAccount > 0 Faire 
         bankAccount <- bankAccount-50 
         Ecrire("Il vous reste" bankAccount "sur votre compte")
