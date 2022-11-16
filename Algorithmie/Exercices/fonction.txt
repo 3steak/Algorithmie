@@ -1,0 +1,91 @@
+Exercice 1
+
+Écrire un algorithme qui permettra de calculer la somme de 2 nombres, puis de multiplier le résultat par 5. 
+Le calcul de la somme devra se faire dans une fonction SumNumbers 
+qui sera à appeler dans l'algorithme principal.
+
+    Function SumNumbers
+
+    Paramètres d'entrée 
+        nbr1 : float
+        nbr2 : float
+
+
+    Paramètres de sortie 
+        calcNbr : float 
+
+    
+
+    instructions
+    
+        calcNbr <- (nbr1 + nbr2)
+
+
+
+
+ algorithme calc 
+
+    variable
+
+        nbr1 : float
+        nbr2 : float
+        resultCalc : float
+
+    instructions 
+
+       resultCalc <- SumNumbers(nbr1,nbr2) * 5 
+
+        Write("La somme des deux nombres divisé par 5 vaut :"resultCalc)
+
+
+
+Exercice 2 
+
+Écrire un algorithme qui permettra de faire le modulo de 2 nombres,
+puis de multiplier le résultat par 60.
+
+Le calcul du modulo devra se faire dans une fonction ModuloNumbers
+qui sera à appeler dans l'algorithme principal.
+
+
+    Function moduloNumbers ( calcul le modulo de 2 nombres)
+
+Paramètres d'entrée 
+     nbr1 : float
+     nbr2 : float
+     
+
+Paramètres de sortie 
+      calcModulo : float
+
+
+Instructions
+    
+        calcModulo <- (nbr1 % nbr2)
+
+
+     
+
+ algorithme calc
+
+ Variables
+    nbr1 : float
+    nbr2 : float
+    resultCalc : float
+
+    instructions 
+
+      resultCalc <- moduloNumbers(nbr1,nb2) * 60  
+
+
+exercice 3 
+
+SumNumbers <- SumNumbers(58, 64)
+SumNumbers vaut 122
+
+moduloNumbers <- ModuloNumbers(432,153)
+moduloNumbers vaut 126
+
+resultCalc <- SumNumbers * moduloNumbers
+resultCalc <- 122 * 126
+resultCalc <- 15372
