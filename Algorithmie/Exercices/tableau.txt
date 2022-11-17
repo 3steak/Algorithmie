@@ -9,6 +9,7 @@ Variables
 
 Instructions 
     notes[] <- notes [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+        resultCalc <- 1
 
 Pour count de 0 à 9 FAIRE
     resultCalc <- resultCalc * notes[count]
@@ -35,6 +36,8 @@ Variables
     data : entier 
     usersDatas[20] : string array
 Instructions
+count <- 0
+data <- 0
 
     arrayUser1[] <- arrayUser1['Jean','Dupont', 'Jean.Dupont@gmail.com']
 
@@ -51,15 +54,22 @@ Instructions
 
     Write(arrayUsers[0,2])
 
-POUR count de 0 à 4 ET data de 0 à 2
+
+POUR count de 0 à 4 Faire
+    POUR data de 0 à 2 Faire
 
 usersDatas <- usersDatas <- [[count],[data]]
+
+
+
 
 Exercice 3 
 
 Write(logicNumber[5]) Affichera 10
-
-
-
-
-
+Count Value    logicNumber   index
+0      0      0                0 
+1      1      2                1
+2      3      4                2
+3      4      6                3
+4      5      8                4
+5      6     10                5  <-   logicNumber[5] correspond à  10 
