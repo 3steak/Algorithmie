@@ -10,7 +10,7 @@ qui sera à appeler dans l'algorithme principal.
         nbr1 : float
         nbr2 : float
 
-
+ 
     Paramètres de sortie 
         calcNbr : float 
 
